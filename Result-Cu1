@@ -1,0 +1,75 @@
+
+DEBUG: FIRST-SHELL RESIDUES LOADED
+['ARG48', 'HIS53', 'HIS95', 'MET28', 'MET51', 'MET98', 'PRO52']
+
+=== ENERGY TRANSFER PATHWAY ANALYSIS ===
+
+Pathway P1: MET28 → LYS29 → GLU31
+  Directional: MET28 → LYS29 | peak corr = 0.062
+  Supportive:  LYS29–GLU31 | peak corr = 0.135
+  Pathway score = 0.008
+
+Pathway P2: MET98 → TYR30 → GLU31
+  Directional: MET98 → TYR30 | peak corr = 0.015
+  Supportive:  TYR30–GLU31 | peak corr = 0.053
+  Pathway score = 0.001
+
+Pathway P3: MET98 → PHE97 → CYS92 → THR32 → PRO33
+  Directional: MET98 → PHE97 | peak corr = 0.039
+  Supportive:  PHE97–CYS92 | peak corr = 0.021
+  Supportive:  CYS92–THR32 | peak corr = 0.018
+  Supportive:  THR32–PRO33 | peak corr = 0.052
+  Pathway score = 0.001
+
+Pathway P4: HIS95 → PRO94 → MET71 → MET72 → ILE25 → ALA26 → LYS29
+  Directional: HIS95 → PRO94 | peak corr = 0.058
+  Supportive:  PRO94–MET71 | peak corr = 0.013
+  Supportive:  MET71–MET72 | peak corr = 0.075
+  Supportive:  MET72–ILE25 | peak corr = 0.009
+  Supportive:  ILE25–ALA26 | peak corr = 0.064
+  Supportive:  ALA26–LYS29 | peak corr = 0.072
+  Pathway score = 0.003
+
+Pathway P5: ARG48 → GLU49
+  Directional: ARG48 → GLU49 | peak corr = 0.026
+  Pathway score = 0.026
+
+Pathway P6: MET51 → ALA50 → LYS74 → GLU75 → ARG48
+  Directional: MET51 → ALA50 | peak corr = 0.066
+  Supportive:  ALA50–LYS74 | peak corr = 0.029
+  Supportive:  LYS74–GLU75 | peak corr = 0.060
+  Supportive:  GLU75–ARG48 | peak corr = 0.015
+  Pathway score = 0.002
+
+Pathway P7: HIS95 → MET28 → LYS29 → GLU31
+  Directional: HIS95 → MET28 | peak corr = 0.032
+  Supportive:  MET28–LYS29 | peak corr = 0.118
+  Supportive:  LYS29–GLU31 | peak corr = 0.135
+  Pathway score = 0.004
+
+Pathway P8: PRO52 → ASN47 → ARG48
+  Directional: PRO52 → ASN47 | peak corr = 0.018
+  Supportive:  ASN47–ARG48 | peak corr = 0.054
+  Pathway score = 0.001
+
+Pathway P9: HIS53 → ASN54 → VAL55 → TRP45 → VAL43 → LEU35 → HIS36
+  Directional: HIS53 → ASN54 | peak corr = 0.056
+  Supportive:  ASN54–VAL55 | peak corr = 0.086
+  Supportive:  VAL55–TRP45 | peak corr = 0.010
+  Supportive:  TRP45–VAL43 | peak corr = 0.051
+  Supportive:  VAL43–LEU35 | peak corr = 0.016
+  Supportive:  LEU35–HIS36 | peak corr = 0.060
+  Pathway score = 0.003
+
+=== PATHWAY RANKING ===
+P5: 0.0256
+P1: 0.0084
+P7: 0.0040
+P4: 0.0027
+P9: 0.0025
+P6: 0.0023
+P3: 0.0012
+P8: 0.0010
+P2: 0.0008
+
+
